@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Max the dog",
+    "ownerId": 23
+  },
+  {
+    "id": 2,
+    "name": "Bella the cat",
+    "ownerId": 23
+  },
+  {
+    "id": 3,
+    "name": "Rocky the bird",
+    "ownerId": 56
+  },
+  {
+    "id": 4,
+    "name": "Lucy the dog",
+    "ownerId": 12
+  },
+  {
+    "id": 5,
+    "name": "Luna the cat",
+    "ownerId": 12
+  },
+  {
+    "id": 6,
+    "name": "Charlie the rabbit",
+    "ownerId": 34
+  },
+  {
+    "id": 7,
+    "name": "Buddy the hamster",
+    "ownerId": 89
+  },
+  {
+    "id": 8,
+    "name": "Daisy the turtle",
+    "ownerId": 71
+  },
+  {
+    "id": 9,
+    "name": "Milo the cat",
+    "ownerId": 45
+  },
+  {
+    "id": 10,
+    "name": "Coco the dog",
+    "ownerId": 92
+  }
+]
