@@ -21,6 +21,8 @@ export const Users = () => {
         const newAllUsers = [...userData];
         newAllUsers.push(newUser);
 
+        setNewUserName("");
+
         setAllUsers(newAllUsers);
     }
 
@@ -35,7 +37,7 @@ export const Users = () => {
         </ul>
 
         <div>
-            <input type="text" onChange={(e) => setNewUserName(e.target.value)} />
+            <input type="text" value={newUserName} onChange={(e) => setNewUserName(e.target.value)} />
             <button onClick={handleClick}>Submit</button>
         </div>
 
