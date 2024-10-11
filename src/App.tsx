@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import {Users} from "./users";
+import React from "react";
+import "./App.css";
+import { Users } from "./users";
 
 function App() {
   return (
