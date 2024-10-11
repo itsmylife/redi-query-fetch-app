@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Getting Started with Data Fetching
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## What is this?
 
-In the project directory, you can run:
+In this repository you'll find very basic of data fetching. It'll use very simple components without any styling. Feel free to make them nice :)
 
-### `npm start`
+The project drawing is under ./public/sketch.png
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- We will load the users
+- When we select a user, its details will be loaded. 
+- We can delete the user, or create a new user.
+- Bonus, try to update an existing user.
+- Each create/update/delete action should be reflected in the list.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To be able to run the project please follow the steps below:
 
-### `npm test`
+- `npm install` Install the dependencies. 
+- `npm run start` Start development server in a terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the slides we mentioned about `json-server`. I found out that it is buggy. It has problems with [CORS](https://developer.mozilla.
+org/en-US/docs/Web/HTTP/CORS). And the demo code they shared https://json-server.dev/json-server-cors/ is not working. So we will skip it. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+We use https://melivecode.com/ which is a ready-to-use CRUD API. (Create-Read-Update-Delete)
+> ### Disclaimer 
+> #### *Data will be reset to only have the first 12 entries every 15 minutes. 
+ 
+In the `./src/api` you'll find the axios setup. Please check it. 

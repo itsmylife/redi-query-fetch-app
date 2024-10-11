@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import { Users } from "./users";
+import { UsersWrapper } from "./users-wrapper";
+import { UserForm } from "./components/user-form";
 
 function App() {
   return (
     <div className="App">
-      <Users />
+      <UserForm />
+      <div id="divider" style={{ height: "30px" }} />
+      <UsersWrapper />
     </div>
   );
 }
