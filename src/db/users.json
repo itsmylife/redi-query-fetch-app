@@ -1,62 +1,64 @@
-[
-  {
-    "id": 23,
-    "name": "Alice Smith",
-    "email": "alice.smith@example.com",
-    "numberOfPets": 2
-  },
-  {
-    "id": 56,
-    "name": "Bob Johnson",
-    "email": "bob.johnson@example.com",
-    "numberOfPets": 1
-  },
-  {
-    "id": 12,
-    "name": "Charlie Davis",
-    "email": "charlie.davis@example.com",
-    "numberOfPets": 2
-  },
-  {
-    "id": 34,
-    "name": "Dana Evans",
-    "email": "dana.evans@example.com",
-    "numberOfPets": 1
-  },
-  {
-    "id": 89,
-    "name": "Eve Williams",
-    "email": "eve.williams@example.com",
-    "numberOfPets": 1
-  },
-  {
-    "id": 71,
-    "name": "Frank Brown",
-    "email": "frank.brown@example.com",
-    "numberOfPets": 1
-  },
-  {
-    "id": 45,
-    "name": "Grace Wilson",
-    "email": "grace.wilson@example.com",
-    "numberOfPets": 1
-  },
-  {
-    "id": 67,
-    "name": "Henry Miller",
-    "email": "henry.miller@example.com",
-    "numberOfPets": 0
-  },
-  {
-    "id": 33,
-    "name": "Ivy Moore",
-    "email": "ivy.moore@example.com",
-    "numberOfPets": 0
-  },
-  {
-    "id": 92,
-    "name": "Jack Taylor",
-    "email": "jack.taylor@example.com",
-    "numberOfPets": 1
-  }
-]
+{
+  "users": [
+    {
+      "id": "23",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "numberOfPets": 2
+    },
+    {
+      "id": "56",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "numberOfPets": 1
+    },
+    {
+      "id": "12",
+      "name": "Charlie Davis",
+      "email": "charlie.davis@example.com",
+      "numberOfPets": 2
+    },
+    {
+      "id": "34",
+      "name": "Dana Evans",
+      "email": "dana.evans@example.com",
+      "numberOfPets": 1
+    },
+    {
+      "id": "89",
+      "name": "Eve Williams",
+      "email": "eve.williams@example.com",
+      "numberOfPets": 1
+    },
+    {
+      "id": "71",
+      "name": "Frank Brown",
+      "email": "frank.brown@example.com",
+      "numberOfPets": 1
+    },
+    {
+      "id": "45",
+      "name": "Grace Wilson",
+      "email": "grace.wilson@example.com",
+      "numberOfPets": 1
+    },
+    {
+      "id": "67",
+      "name": "Henry Miller",
+      "email": "henry.miller@example.com",
+      "numberOfPets": 0
+    },
+    {
+      "id": "33",
+      "name": "Ivy Moore",
+      "email": "ivy.moore@example.com",
+      "numberOfPets": 0
+    },
+    {
+      "id": "92",
+      "name": "Jack Taylor",
+      "email": "jack.taylor@example.com",
+      "numberOfPets": 1
+    }
+  ]
+}
